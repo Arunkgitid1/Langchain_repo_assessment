@@ -58,3 +58,43 @@ The prompt attempts to establish a persona and a task but is severely hampered b
 SUGGESTIONS FOR IMPROVEMENT:
 1.  **Enhance Clarity and Grammar:** Correct typos (e.g., "travel assistant") and rephrase awkward phrasing (e.g., "10 trip" to "10-day trip," "which food we need to eat" to "recommend local foods to try").
 2.  **Increase Specificity and Context:** Provide essential details such as exact travel dates, a budget range (for flights, hotels, activities), traveler interests (e.g., history, arts, food, nightlife), and preferred travel style (e.g., luxury, budget-friendly, family-oriented). Also, define desired output format (e.g., "a detailed daily itinerary," "a bulleted list of recommendations").
+
+test case 4 :
+PROMPT EVALUATION REPORT
+------------------------
+SCORES:
+- Clarity: 8/10
+- Specificity: 7/10
+- Context: 8/10
+- Output Constraints: 3/10
+- Persona: 9/10
+
+FINAL AVERAGE SCORE: 7.0
+
+EXPLANATION:
+The prompt clearly defines a persona ("news agent") and asks distinct questions about a specific cricket match (CSK vs SRH in India, with CSK losing). The language is straightforward and easy to understand. However, it lacks a specific date for the match, which could lead to ambiguity if there have been multiple such encounters. The biggest weakness is the absence of output constraints, leaving the model wide open in terms of format, length, and structure of the explanation, summary, and decision analysis.
+
+SUGGESTIONS FOR IMPROVEMENT:
+1.  **Add a specific date or timeframe for the match:** To ensure the AI references the correct event, specify "the match played on [Date]" or "the most recent match between CSK and SRH."
+2.  **Define output format and length:** Specify how the information should be presented (e.g., "Provide a 200-word summary, followed by 3-5 bullet points explaining key decisions that went wrong, and then a brief overall analysis.") This helps structure the response.
+3.  **Refine the persona and audience:** While "news agent" is good, consider "sports journalist" or "cricket analyst" for a more precise tone. Also, specify the intended audience (e.g., "for a general sports audience" or "for a detailed tactical review").
+
+Test case 5 
+PROMPT EVALUATION REPORT
+------------------------
+SCORES:
+- Clarity: 5/10
+- Specificity: 6/10
+- Context: 5/10
+- Output Constraints: 2/10
+- Persona: 9/10
+
+FINAL AVERAGE SCORE: 5.4
+
+EXPLANATION:
+The prompt successfully defines a persona ("news agent") but is significantly hindered by grammatical errors and typos ("pary," "exist poll"). While it specifies the core information needed (Tamil Nadu election dates and exit poll predictions), it lacks crucial specificity regarding the election timeframe (e.g., "most recent," "upcoming") and what "details" should encompass. Furthermore, there are almost no output constraints, meaning the AI has no guidance on format, length, or desired tone beyond what the persona might imply. This lack of precision and structure could lead to a generic or unhelpful response.
+
+SUGGESTIONS FOR IMPROVEMENT:
+1.  **Correct Grammar and Spelling:** Fix all grammatical errors and typos (e.g., "party," "exit poll") to ensure the AI accurately understands the request and to improve overall prompt quality.
+2.  **Enhance Specificity:** Clearly state the timeframe for the election (e.g., "the most recent," "the upcoming 2024 election"). Also, define what "details" entails (e.g., "nomination, polling, and counting dates").
+3.  **Define Output Format and Detail:** Specify how the information should be presented (e.g., "in a concise paragraph," "using bullet points," "a brief summary") and the level of detail required for each piece of information.
